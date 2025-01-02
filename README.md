@@ -1,3 +1,3 @@
-❤️‍🔥Main Info:
-| Furry | Artist | Programmer |
-| Composer | Gamer | Single 💔 |
+❤️‍🔥Main Info: <br />
+| Furry | Artist | Programmer | <br />
+| Composer | Gamer | Single 💔 | <br />
