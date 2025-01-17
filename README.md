@@ -14,4 +14,4 @@ I’m also a conlanger! My constructed language, **Taratoshigano**, is inspired 
 <br />
 ## 📈 *My Stats*:
 
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lina-torovoltas&show_icons=true&theme=gruvbox" alt="lina-torovoltas" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lina-torovoltas&show_icons=true&theme=darcula&layout=compact" alt="lina-torovoltas" />
