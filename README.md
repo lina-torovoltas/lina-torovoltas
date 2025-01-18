@@ -12,4 +12,4 @@ And playing games — especially shooters and story-driven adventures.
 I’m also a conlanger! My constructed language, **Taratoshigano**, is inspired by Japanese)  
 <br />
 ## 📈 *My Stats*:
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lina-torovoltas&theme=darcula&layout=donut" alt="lina-torovoltas" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lina-torovoltas&theme=darcula&layout=compact" alt="lina-torovoltas" />
