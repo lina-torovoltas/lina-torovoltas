@@ -4,7 +4,7 @@ I'm a furry girl and a passionate programmer with a fox fursona. I code in:
 2. C
 3. Assembly (FASM)
 4. HTML/CSS/JS
-5. Bash
+5. Shell
 
 Beyond programming, I’m a system administrator working with **Debian** and **Arch** Linux.  
 In my creative time, I love drawing on my graphics tablet using **Krita** and composing music in **FL Studio**,  
