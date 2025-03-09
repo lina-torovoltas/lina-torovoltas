@@ -11,5 +11,7 @@ In my creative time, I love drawing on my graphics tablet using **Krita** and co
 And playing games — especially shooters and story-driven adventures.  
 I’m also a conlanger! My constructed language, **Taratoshigano**, is inspired by Japanese)  
 <br />
+
+I would also like to invite you to visit my [website](https://lina-torovoltas.github.io/):3
 ## 📈 *My Stats*:
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lina-torovoltas&theme=dark&layout=compact" alt="lina-torovoltas" />
+<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=lina-torovoltas&theme=gruvbox&layout=compact" alt="lina-torovoltas" />
