@@ -1,5 +1,5 @@
 ## ❤️‍🔥*About Me*:
-I'm a furry girl and a passionate programmer with a fox fursona. I code in:
+I'm a furry femboy and a passionate programmer with a fox fursona. I code in:
 1. Python
 2. C
 3. Assembly (FASM)
