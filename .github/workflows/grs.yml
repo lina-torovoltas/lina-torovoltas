@@ -15,7 +15,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=makefile&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=html,makefile,shell&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -23,7 +23,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=FasmMacroLib&theme=dark
+          options: username=lina-torovoltas&repo=FasmMacroLib&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-fasmmacrolib.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -31,7 +31,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=SoryneOS&theme=dark
+          options: username=lina-torovoltas&repo=SoryneOS&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-soryneos.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -39,7 +39,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=WebServer&theme=dark
+          options: username=lina-torovoltas&repo=WebServer&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-webserver.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -47,7 +47,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=VRS-454&theme=dark
+          options: username=lina-torovoltas&repo=VRS-454&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-vrs454.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -55,7 +55,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Drapixcol&theme=dark
+          options: username=lina-torovoltas&repo=Drapixcol&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-drapixcol.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -63,7 +63,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=lina-torovoltas.github.io&theme=dark
+          options: username=lina-torovoltas&repo=lina-torovoltas.github.io&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-website.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -71,7 +71,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=0xNULL_Bot-telegram&theme=dark
+          options: username=lina-torovoltas&repo=0xNULL_Bot-telegram&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-0xnullbot.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -79,7 +79,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Repo_Backuper&theme=dark
+          options: username=lina-torovoltas&repo=Repo_Backuper&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-repobackuper.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -87,7 +87,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Random-DumpGen&theme=dark
+          options: username=lina-torovoltas&repo=Random-DumpGen&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
           path: profile/pin-randomdumpgen.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -97,4 +97,5 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add profile/*.svg
           git commit -m "Update README cards" || exit 0
+          git pull --rebase origin main
           git push
