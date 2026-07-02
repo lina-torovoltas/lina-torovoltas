@@ -1,21 +1,23 @@
-## ❤️‍🔥*About Me*:
-I'm a furry girl and a passionate programmer with a fox fursona. I code in:
-1. Python
-2. C
-3. Assembly (FASM)
-4. HTML/CSS/JS
-5. Shell
-
-Beyond programming, I’m a system administrator working with **Debian** and **Arch** Linux.  
-In my creative time, I love drawing on my graphics tablet using **Krita** and composing music in **FL Studio**,  
-And playing games — especially shooters and story-driven adventures.  
-I’m also a conlanger! My constructed language, **Taratoshigano**, is inspired by Japanese)  
-<br />
-
-I would also like to invite you to visit my [website](https://lina-torovoltas.github.io/):3
-
-
-## 📈 *My Stats*:
-
-
-<p align="center"> <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=lina-torovoltas&theme=great-gatsby&layout=compact" alt="lina-torovoltas" />
+### Stats
+ 
+<img src="./profile/top-langs.svg?v=1" width="400" />
+### Projects
+ 
+<table>
+  <tr>
+    <td><img src="./profile/pin-fasmmacrolib.svg?v=1" width="300" /></td>
+    <td><img src="./profile/pin-soryneos.svg?v=1" width="300" /></td>
+    <td><img src="./profile/pin-webserver.svg?v=1" width="300" /></td>
+  </tr>
+  <tr>
+    <td><img src="./profile/pin-vrs454.svg?v=1" width="300" /></td>
+    <td><img src="./profile/pin-drapixcol.svg?v=1" width="300" /></td>
+    <td><img src="./profile/pin-website.svg?v=1" width="300" /></td>
+  </tr>
+  <tr>
+    <td><img src="./profile/pin-0xnullbot.svg?v=1" width="300" /></td>
+    <td><img src="./profile/pin-repobackuper.svg?v=1" width="300" /></td>
+    <td><img src="./profile/pin-randomdumpgen.svg?v=1" width="300" /></td>
+  </tr>
+</table>
+ 
