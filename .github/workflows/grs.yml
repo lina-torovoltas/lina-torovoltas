@@ -15,7 +15,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&hide=html,makefile&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
+          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&hide=html,makefile,css,shell&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -57,6 +57,38 @@ jobs:
           card: pin
           options: username=lina-torovoltas&repo=Drapixcol&theme=dark
           path: profile/pin-drapixcol.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - Website
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=lina-torovoltas.github.io&theme=dark
+          path: profile/pin-website.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - 0xNULL_Bot-telegram
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=0xNULL_Bot-telegram&theme=dark
+          path: profile/pin-0xnullbot.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - Repo_Backuper
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=Repo_Backuper&theme=dark
+          path: profile/pin-repobackuper.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - Random-DumpGen
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=Random-DumpGen&theme=dark
+          path: profile/pin-randomdumpgen.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit cards
