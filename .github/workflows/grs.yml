@@ -1,0 +1,68 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=donut&langs_count=8&hide=html,makefile&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
+          path: profile/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - FasmMacroLib
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=FasmMacroLib&theme=dark
+          path: profile/pin-fasmmacrolib.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - SoryneOS
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=SoryneOS&theme=dark
+          path: profile/pin-soryneos.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - WebServer
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=WebServer&theme=dark
+          path: profile/pin-webserver.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - VRS-454
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=VRS-454&theme=dark
+          path: profile/pin-vrs454.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate pin - Drapixcol
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=Drapixcol&theme=dark
+          path: profile/pin-drapixcol.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push
