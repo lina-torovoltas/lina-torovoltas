@@ -19,3 +19,7 @@
     <td><a href="https://github.com/lina-torovoltas/Random-DumpGen"><img src="./profile/pin-randomdumpgen.svg?v=1783579888" width="300" /></a></td>
   </tr>
 </table>
+
+<p align="center">
+  All cards are clickable and lead to repositories ^
+</p>
