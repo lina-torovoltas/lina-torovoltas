@@ -94,8 +94,8 @@ jobs:
       - name: Calculate World Line Divergence
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          python3 main.py
+          GITHUB_REPOSITORY_OWNER: ${{ github.repository_owner }}
+        run: python3 main.py
 
       - name: Bust cache in README
         run: |
