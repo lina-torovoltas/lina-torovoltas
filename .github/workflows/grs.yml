@@ -91,6 +91,12 @@ jobs:
           path: profile/pin-randomdumpgen.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Calculate World Line Divergence
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 main.py
+
       - name: Bust cache in README
         run: |
           TS=$(date +%s)
@@ -100,7 +106,7 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add profile/*.svg README.md
+          git add profile/*.svg README.md divergence_history.txt
           git commit -m "Update README cards" || exit 0
           git pull --rebase origin main
           git push
