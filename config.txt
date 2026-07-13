@@ -1,0 +1,13 @@
+ex: shell makefile cmake dockerfile
+
+asm: 2.0
+basic: 2.0
+
+c: 1.0
+rust: 1.0
+
+python: -1.0
+js: -1.0
+
+html: -2.0
+css: -2.0
