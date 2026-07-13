@@ -24,13 +24,19 @@ def github_get(url):
 
 
 def get_repos():
-    user = github_get(API + "/user")["login"]
-    repos, page = [], 1
+    user = os.environ["GITHUB_REPOSITORY_OWNER"]
+
+    repos = []
+    page = 1
 
     while True:
-        data = github_get(f"{API}/users/{user}/repos?per_page=100&page={page}")
+        data = github_get(
+            f"https://api.github.com/users/{user}/repos?per_page=100&page={page}"
+        )
+
         if not data:
             break
+
         repos += data
         page += 1
 
