@@ -23,3 +23,5 @@
 <p align="center">
   All cards are clickable and lead to repositories ^
 </p>
+
+<!-- DIVERGENCE_METER -->
