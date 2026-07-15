@@ -108,11 +108,15 @@ def old_value():
 
 def save_history(old, new):
     text = f"{old:+.6f} -> {new:+.6f}"
+    
+    if abs(old - new) < 1e-9:
+        return text
+        
     date = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
-
+    
     with open(HISTORY_FILE, "a", encoding="utf-8") as f:
         f.write(f"{date} | {text}\n")
-
+        
     return text
 
 
