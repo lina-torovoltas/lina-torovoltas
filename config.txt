@@ -1,13 +1,35 @@
-ex: shell makefile cmake dockerfile
+ex: cmake dockerfile
 
-assembly: 2.0
-basic: 2.0
+assembly: 3.0
 
-c: 1.0
-rust: 1.0
+zig: 1.5
+haskell: 1.5
+
+c: 1.25
+d: 1.25
+c++: 1.25
+rust: 1.25
+
+cobol: 1.0
+odin: 1.0
+nim: 1.0
+
+java: 0.75
+kotlin: 0.5
+
+ruby: -0.75
 
 python: -1.0
-js: -1.0
 
-html: -2.0
-css: -2.0
+perl: -1.25
+
+javascript: -1.5
+typescript: -1.6
+
+php: -2
+
+shell: -2.5
+makefile: -2.5
+
+html: -3.0
+css: -3.0
