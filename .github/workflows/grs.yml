@@ -43,6 +43,14 @@ jobs:
           path: profile/pin-webserver.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Generate pin - Opcoder
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=Opcoder&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          path: profile/pin-opcoder.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Generate pin - VRS-454
         uses: readme-tools/github-readme-stats-action@v1
         with:
