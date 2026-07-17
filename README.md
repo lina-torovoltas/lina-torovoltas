@@ -34,5 +34,5 @@
 
 <!-- DIVERGENCE_METER -->
 <p align="center">
-  <code>Divergence: +0.545134 -> +0.545134</code>
+  <code>Divergence: +0.182599 -> +0.545134</code>
 </p>
