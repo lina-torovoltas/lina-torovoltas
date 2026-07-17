@@ -8,11 +8,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
       - name: Generate top languages card
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=makefile&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
@@ -20,7 +22,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - FasmMacroLib
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=FasmMacroLib&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -28,7 +30,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - SoryneOS
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=SoryneOS&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -36,7 +38,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - WebServer
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=WebServer&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -44,7 +46,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - Opcoder
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=Opcoder&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -52,7 +54,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - VRS-454
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=VRS-454&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -60,7 +62,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - Drapixcol
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=Drapixcol&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -68,7 +70,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - Website
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=lina-torovoltas.github.io&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -76,7 +78,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - 0xNULL_Bot-telegram
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=0xNULL_Bot-telegram&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -84,7 +86,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - Repo_Backuper
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=Repo_Backuper&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
@@ -92,7 +94,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate pin - Random-DumpGen
-        uses: readme-tools/github-readme-stats-action@v1
+        uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
           options: username=lina-torovoltas&repo=Random-DumpGen&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
