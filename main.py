@@ -145,12 +145,15 @@ def main():
     repos = get_repos()
     stack = get_languages(repos)
     excluded, weights = config()
-
+    
     new = divergence(stack, excluded, weights)
     old = old_value()
-
     text = save_history(old, new)
-    update_readme(text)
+
+    if round(old, 6) != round(new, 6):
+        update_readme(text)
+    else:
+        print("nothing has changed")
 
     print("Divergence:", text)
 
