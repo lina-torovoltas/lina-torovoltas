@@ -84,14 +84,13 @@ def divergence(stack, excluded, weights):
     if not stack:
         return 0.0
 
-    langs = list(stack)
+    langs = sorted(stack)
     ideal = 1 / len(langs)
-    total = sum(stack.values())
-
+    total = sum(stack[k] for k in langs)
     alpha = sum(ideal * weights.get(x, 0) for x in langs)
-    real = sum((v / total) * weights.get(k, 0) for k, v in stack.items())
+    real = sum((stack[k] / total) * weights.get(k, 0) for k in langs)
 
-    return (real - alpha) * 0.5
+    return round((real - alpha) * 0.5, 6)
 
 
 def old_value():
@@ -108,15 +107,15 @@ def old_value():
 
 def save_history(old, new):
     text = f"{old:+.6f} -> {new:+.6f}"
-    
-    if abs(old - new) < 1e-9:
+
+    if round(old, 6) == round(new, 6):
         return text
-        
+
     date = datetime.now(UTC).strftime("%Y-%m-%d %H:%M UTC")
-    
+
     with open(HISTORY_FILE, "a", encoding="utf-8") as f:
         f.write(f"{date} | {text}\n")
-        
+
     return text
 
 
