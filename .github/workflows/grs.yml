@@ -17,7 +17,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=makefile&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=8&hide=makefile&title_color=ffa657&text_color=e6e6e6&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -25,7 +25,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=FasmMacroLib&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=FasmMacroLib&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-fasmmacrolib.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -33,7 +33,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=SoryneOS&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=SoryneOS&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-soryneos.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -41,7 +41,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=WebServer&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=WebServer&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-webserver.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -49,7 +49,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Opcoder&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=Opcoder&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-opcoder.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -57,7 +57,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=VRS-454&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=VRS-454&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-vrs454.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -65,7 +65,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Drapixcol&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=Drapixcol&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-drapixcol.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -73,7 +73,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=lina-torovoltas.github.io&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=lina-torovoltas.github.io&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-website.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -81,7 +81,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=0xNULL_Bot-telegram&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=0xNULL_Bot-telegram&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-0xnullbot.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -89,7 +89,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Repo_Backuper&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=Repo_Backuper&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-repobackuper.svg
           token: ${{ secrets.STATS_TOKEN }}
 
@@ -97,7 +97,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: pin
-          options: username=lina-torovoltas&repo=Random-DumpGen&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d
+          options: username=lina-torovoltas&repo=Random-DumpGen&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
           path: profile/pin-randomdumpgen.svg
           token: ${{ secrets.STATS_TOKEN }}
 
