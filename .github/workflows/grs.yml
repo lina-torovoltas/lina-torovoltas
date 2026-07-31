@@ -53,6 +53,14 @@ jobs:
           path: profile/pin-opcoder.svg
           token: ${{ secrets.STATS_TOKEN }}
 
+      - name: Generate pin - marktot-rs
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=marktok-rs&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
+          path: profile/pin-marktok-rs.svg
+          token: ${{ secrets.STATS_TOKEN }}
+
       - name: Generate pin - VRS-454
         uses: stats-organization/github-readme-stats-action@v2
         with:
