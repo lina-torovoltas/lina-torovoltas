@@ -23,9 +23,8 @@
   
   <tr>
     <td><a href="https://github.com/lina-torovoltas/Repo_Backuper"><img src="./profile/pin-repobackuper.svg?v=1789375656" width="300" /></a></td>
-    <td><a href="https://github.com/lina-torovoltas/lina-torovoltas.github.io"><img src="./profile/pin-website.svg?v=1789375656" width="300" /></a></td>
-    <td><a href="https://github.com/lina-torovoltas/Drapixcol"><img src="./profile/pin-drapixcol.svg?v=1789375656" width="300" /></a></td>
     <td></td>
+    <td><a href="https://github.com/lina-torovoltas/lina-torovoltas.github.io"><img src="./profile/pin-website.svg?v=1789375656" width="300" /></a></td>
   </tr>
 </table>
 
