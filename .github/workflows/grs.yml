@@ -29,6 +29,15 @@ jobs:
           path: profile/pin-fasmmacrolib.svg
           token: ${{ secrets.STATS_TOKEN }}
 
+      - name: Generate pin - TernLib
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=lina-torovoltas&repo=TernLib&title_color=ffa657&text_color=e6e6e6&icon_color=ffa657&bg_color=0d1117&border_color=30363d&cache_seconds=0
+          path: profile/pin-ternlib.svg
+          token: ${{ secrets.STATS_TOKEN }}
+          
+
       - name: Generate pin - SoryneOS
         uses: stats-organization/github-readme-stats-action@v2
         with:
