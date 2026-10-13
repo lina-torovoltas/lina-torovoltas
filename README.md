@@ -16,7 +16,7 @@
   </tr>
   
   <tr>
-    <td><a href="https://github.com/lina-torovoltas/VRS-454"><img src="./profile/pin-vrs454.svg?v=1791905400" width="300" /></a></td>****
+    <td><a href="https://github.com/lina-torovoltas/VRS-454"><img src="./profile/pin-vrs454.svg?v=1791905400" width="300" /></a></td>
     <td><a href="https://github.com/lina-torovoltas/Random-DumpGen"><img src="./profile/pin-randomdumpgen.svg?v=1791905400" width="300" /></a></td>
     <td><a href="https://github.com/lina-torovoltas/RandomStuffCode"><img src="./profile/pin-randomstuffcode.svg?v=1791905400" width="300" /></a></td>
   </tr>
