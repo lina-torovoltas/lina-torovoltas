@@ -122,7 +122,7 @@
     
 
     <text class="description" x="25" y="-5"> 
-      <tspan dy="1.2em" x="25">No description provided</tspan>
+      <tspan dy="1.2em" x="25">Library for Balanced Ternary Logic on Bit Planes</tspan>
     </text>
 
     <g transform="translate(30, 45)">
