@@ -9,7 +9,7 @@ API = "https://api.github.com"
 CONFIG_FILE = "config.txt"
 HISTORY_FILE = "divergence_history.txt"
 README_FILE = "README.md"
-EXCLUDE_REPOS = {"Hello_Pentagon"}
+EXCLUDE_REPOS = {"hello_pentagon"}
 
 MARKER = "<!-- DIVERGENCE_METER -->"
 
