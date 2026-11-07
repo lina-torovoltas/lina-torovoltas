@@ -9,6 +9,7 @@ API = "https://api.github.com"
 CONFIG_FILE = "config.txt"
 HISTORY_FILE = "divergence_history.txt"
 README_FILE = "README.md"
+EXCLUDE_REPOS = {"Hello_Pentagon"}
 
 MARKER = "<!-- DIVERGENCE_METER -->"
 
@@ -47,7 +48,7 @@ def get_languages(repos):
     result = {}
 
     for repo in repos:
-        if repo["fork"]:
+        if repo["fork"] or repo["name"].lower() in EXCLUDE_REPOS:
             continue
 
         for lang, size in github_get(repo["languages_url"]).items():
